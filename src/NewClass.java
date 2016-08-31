@@ -22,7 +22,6 @@ public static void main(String[] args) {
     d=(int)(Math.random()*10);
     e=(int)(Math.random()*10);
     f=(int)(Math.random()*10);
-    System.out.println("El numero de la loteria es:"+d+""+e+""+f);
     java.util.Scanner lectura = new java.util.Scanner(System.in);
     System.out.println("Ingrese su número de lotería");
     g=lectura.nextInt();
@@ -90,7 +89,7 @@ public static void PremioGanado(int Cifras, int Orden){
                 System.out.println("Su premio es: $1000");
                 break;
             default:
-                System.out.println("Usted no ha gannado en esta oportunidad, intentelo de nuevo");
+                System.out.println("Usted no ha ganado en esta oportunidad, intentelo de nuevo");
                 break;
         }
         
@@ -98,4 +97,3 @@ public static void PremioGanado(int Cifras, int Orden){
   }
 
 }
-    
